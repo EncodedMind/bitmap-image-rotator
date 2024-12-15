@@ -54,21 +54,12 @@ Run the program with the input BMP file:
 ```
 
 ### Example
+*We can see two of the most advanced humanoid robots: Sophia and Ameca!* \
 Input:
-[input_image](test/input.bmp)
-Output (rotated 90°):
-[output_image](test/output.bmp)
+![input_image](test/input.bmp)
 
-## 📊 Test Cases
-Example Input:
-A BMP file (input.bmp) of dimensions 640x480.
-Expected Output:
-A BMP file (output.bmp) of dimensions 480x640, rotated 90 degrees clockwise.
-
-## 📝 Notes
-Handles 24-bit BMP files (uncompressed).
-Ensures proper handling of padding for row alignment.
-Outputs BMP files that conform to the BMP file format.
+Output (rotated 90°): \
+![output_image](test/output.bmp)
 
 ## License
 This code is open-source under the MIT License.
